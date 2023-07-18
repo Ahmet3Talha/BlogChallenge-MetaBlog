@@ -1,0 +1,94 @@
+* {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.frame {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 23px;
+  margin-right: 23px;
+  height: 36px;
+  display: block;
+  text-align: center;
+}
+
+.menu_logo {
+  margin-right: 118px;
+  float: left;
+}
+
+.inframe {
+  width: 942px;
+  height: 36px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.menu {
+  width: 667px;
+  height: 24px;
+  padding-left: 116px;
+  margin-right: 1px;
+  float: left;
+}
+
+.menu ul {
+  display: flex;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.link {
+  padding-top: 4px;
+  padding-right: 40px;
+}
+
+.choose {
+  text-decoration: none;
+  color: #3B3C4A;
+}
+
+.choose:hover {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.atom-input {
+  width: 166px;
+  height: 36px;
+  padding-top: 2px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f4f4f5;
+  position: relative;
+  top: -10px;
+  left: 18px;
+}
+
+.searchTerm {
+  color: #a1a1aa;
+  background-color: #f4f4f5;
+  width: 114px;
+  height: 20px;
+  border: none;
+  outline: none;
+  padding-top: 16px;
+  padding-bottom: 7px;
+  font-family: "Inter", sans-serif;
+}
+
+.searchButton {
+  background-color: #f4f4f5;
+  padding-top: 10px;
+  float: right;
+  border: none;
+  outline: none;
+}
+
+.fa-solid {
+  padding-top: 3px;
+  width: 16px;
+  height: 16px;
+}/*# sourceMappingURL=menu.css.map */
