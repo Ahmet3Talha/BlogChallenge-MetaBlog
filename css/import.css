@@ -1,0 +1,19 @@
+@import url(card-layout.css);
+@import url(card-in-slider.css);
+@import url(responsive.css);
+@import url(advertising.css);
+@import url(footer.css);
+.menubar {
+  height: auto;
+}
+
+.slider-frame {
+  display: flex;
+  justify-content: center;
+}
+.slider-item {
+  position: relative;
+  top: 50px;
+}
+.images {
+}

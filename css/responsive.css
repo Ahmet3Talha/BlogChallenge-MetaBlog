@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+  .technology {
+    font-size: 5px;
+  }
+
+  .heading .title .text {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  footer .list {
+    width: 100px;
+  }
+  footer .email {
+    margin-top: 20px;
+  }
+  .footer-copyright .text {
+    font-size: 10px;
+  }
+  .footer-link {
+    font-size: 10px;
+  }
+}

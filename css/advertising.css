@@ -1,0 +1,15 @@
+.advertising {
+  height: 300px;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advertising .box {
+  position: relative;
+  width: 70%;
+  height: 60%;
+  background-color: #97989f;
+  border-radius: 10px;
+}
