@@ -2,10 +2,8 @@
 @import url(card-in-slider.css);
 @import url(responsive.css);
 @import url(advertising.css);
+@import url(button.css);
 @import url(footer.css);
-.menubar {
-  height: auto;
-}
 
 .slider-frame {
   display: flex;
@@ -14,6 +12,4 @@
 .slider-item {
   position: relative;
   top: 50px;
-}
-.images {
 }
