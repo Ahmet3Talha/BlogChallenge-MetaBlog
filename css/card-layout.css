@@ -1,8 +1,12 @@
-.text-frame .text {
-  position: relative;
-  left: 4%;
+.title-frame {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 37px;
+}
+.title-frame .text {
   font-family: "Work Sans", sans-serif;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .card-container {

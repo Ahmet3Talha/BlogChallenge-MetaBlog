@@ -1,0 +1,59 @@
+.about {
+  height: 400px;
+  background-color: #f6f6f7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.profil {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.profil-photo {
+  width: 60px;
+  height: 60px;
+}
+.name p {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.name .writer {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.name .rank {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #696a75;
+}
+.text-frame {
+  display: flex;
+  justify-content: center;
+}
+.writer-about {
+  width: 50%;
+  display: flex;
+  text-align: center;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+}
+.btns ul {
+  display: flex;
+  flex-direction: row;
+}
+.btns li {
+  margin-right: 12px;
+}
