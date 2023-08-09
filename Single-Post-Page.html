@@ -8,67 +8,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Source+Serif+4:opsz@8..60&family=Work+Sans:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&family=Source+Serif+4:opsz@8..60&family=Work+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <!-- google font -->
     <!-- Bootstrap -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
     <!-- Bootstrap -->
-    <title>Single Post</title>
-    <link rel="stylesheet" href="css/single-post-import.css" />
+    <title>Single-Post</title>
+    <link rel="stylesheet" href="scss/main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light menubar">
-      <img src="img/menu-logo.svg" alt="" />
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="Home-Page.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Blog-Listing.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Single-Post.html">Single Post</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About-Page.html">Pages</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-        </form>
-      </div>
-    </nav>
-    <div class="order">
+    <div class="container">
+      <nav class="menubar navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/menu-logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Home-Page.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Blog-Listing-Page.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Single-Post-Page.html">Single Post</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About-Page.html">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
       <div class="paragraph-frame">
-        <div class="paragraph-width w-100">
+        <div class="paragraph-width">
           <div class="heading">
             <div class="technology">Technology</div>
             <div class="title">
@@ -81,16 +84,18 @@
           <div class="short-info">
             <div class="writer">
               <img src="img/profil-jason.png" class="profil-photo" />
-              <div class="writer-name">
+              <div class="info">
+                <div class="writer-name">
                 <p class="text">Jason Francisco</p>
+                </div>
+                <div class="date">
+                <p class="text">August 20, 2022</p>
+                </div>
               </div>
-            </div>
-            <div class="date">
-              <p class="text">August 20, 2022</p>
             </div>
           </div>
         </div>
-      </div>
+    </div>
       <div class="image container">
         <img src="img/single-post-img.png" class="w-100" />
         <p class="text mt-4">
@@ -139,7 +144,7 @@
           felis. Tincidunt arcu non sodales neque sodales ut etiam sit amet.
         </p>
         <div class="saying mt-5">
-          <p class="saying-text">
+          <p class="text">
             “ Traveling can expose you to new environments and potential health
             risks, so it's crucial to take precautions to stay safe and healthy.
             ”
@@ -195,48 +200,56 @@
         </p>
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <p class="title">About</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam
-            </p>
-            <br />
-            <p>
-              <strong>Email:</strong> info@jstemplate.net <br />
-              <strong>Phone:</strong> 880 1233 456 789
-            </p>
-          </div>
-          <div class="col-md-2 list" id="list-1">
-            <ul class="order">
-              <p class="title">Quik Link</p>
-              <br />
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Achived</a></li>
-              <li><a href="#">Author</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2 list">
-            <ul class="order">
-              <p class="title">Category</p>
-              <br />
-              <li><a href="#">Lifestyle</a></li>
-              <li><a href="#">Technology</a></li>
-              <li><a href="#">Travel</a></li>
-              <li><a href="#">Business</a></li>
-              <li><a href="#">Economy</a></li>
-              <li><a href="#">Sports</a></li>
-            </ul>
-          </div>
-          <div class="col-md-1 list"></div>
-          <div class="col-md email">
+    <footer id="footer">
+      <div class="gray">
+        <div class="frame container w-100">
+          <div class="container text-center">
+            <div class="row row-cols-md-3">
+              <div class="footer-about col">
+                <p class="title">About</p>
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam
+                </p>
+                <p>
+                  <strong>Email:</strong> info@jstemplate.net <br />
+                  <strong>Phone:</strong> 880 1233 456 789
+                </p>
+              </div>
+              <div class="col text-center">
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                    <p class="title">Quik Link</p>
+                    <ul class="order">
+                      <li class="list"><a class="link" href="#">Home</a></li>
+                      <li class="list"><a class="link" href="#">About</a></li>
+                      <li class="list"><a class="link" href="#">Blog</a></li>
+                      <li class="list"><a class="link" href="#">Achived</a></li>
+                      <li class="list"><a class="link" href="#">Author</a></li>
+                      <li class="list"><a class="link" href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 text-center">
+                    <p class="title">Category</p>
+                    <ul class="order">
+                      <li class="list">
+                        <a class="link" href="#">Lifestyle</a>
+                      </li>
+                      <li class="list">
+                        <a class="link" href="#">Technology</a>
+                      </li>
+                      <li class="list"><a class="link" href="#">Travel</a></li>
+                      <li class="list">
+                        <a class="link" href="#">Business</a>
+                      </li>
+                      <li class="list"><a class="link" href="#">Economy</a></li>
+                      <li class="list"><a class="link" href="#">Sports</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col email">
             <div class="card text-center" style="width: 21rem">
               <div class="card-body">
                 <p class="card-title">Weekly Newsletter</p>
@@ -251,8 +264,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <hr />
+        <hr />
+      
       <div class="row mt-5 footer-copyright">
         <div class="col copyright">
           <div class="class-a">
@@ -273,22 +286,8 @@
           </div>
         </div>
       </div>
+    
     </footer>
-
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

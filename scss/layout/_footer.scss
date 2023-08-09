@@ -1,0 +1,76 @@
+footer {
+  & .gray {
+    padding-top: 64px;
+    margin-top: 100px;
+    background-color: $color_bg-gray;
+    font-family: $font_plus-jakarta;
+    & .frame {
+      margin-bottom: 64px;
+
+      & .title {
+        text-align: start;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+      }
+      & .order {
+        padding: 0;
+        & .list {
+          text-align: start;
+          margin-bottom: 8px;
+          list-style-type: none;
+          & .link {
+            color: $color_write_gray;
+            text-decoration: none;
+          }
+        }
+      }
+      & .footer-about {
+        text-align: start;
+      }
+    }
+  }
+  & .email {
+    font-family: $font_work-sans;
+    & .card-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: $color_black-title;
+    }
+    & .card-text {
+      font-size: 16px;
+      font-weight: 400;
+      color: $color_bg-gray-about;
+    }
+    & .email-input {
+      width: 250px;
+    }
+  }
+  & .footer-copyright {
+    & .footer-link {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      bottom: 50px;
+      a {
+        text-decoration: none;
+        margin-left: 20px;
+        color: $color_black-title;
+        :hover {
+          color: $color_black;
+        }
+      }
+    }
+  }
+  & .class-a {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    & .text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      text-align: start;
+    }
+  }
+}

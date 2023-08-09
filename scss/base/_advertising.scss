@@ -1,0 +1,12 @@
+.advertising {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & .box {
+    width: 70%;
+    height: 60%;
+    background-color: $color_soft-gray;
+    border-radius: 10px;
+  }
+}
